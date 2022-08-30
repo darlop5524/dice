@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="2d-+=FnKd~p-0/wN]-9p">dice</variable></variables><block type="pxt-on-start" id="}@[cp$L@7_E[^Ft*L2h1" x="0" y="0"></block><block type="device_forever" id="T+{NnD$=2KVT+OWfw-7~" x="205" y="0"></block><block type="device_gesture_event" id="/uiQ+{TvHa7THc5jxmwz" x="17" y="147"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="R7^UB[7;+yww*UoiuTRP"><field name="VAR" id="2d-+=FnKd~p-0/wN]-9p">dice</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="F)DnF!_:3OBw/4^@hRaj"><value name="min"><shadow type="math_number" id="(83Woe}B^7`%^YAJ~Q+`"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="O-K^I_c,HCr*H.SUp!uq"><field name="NUM">6</field></shadow></value></block></value><next><block type="controls_if" id="$QV[7j0((5HZ!4OAKLZc"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="n#w(=ME59tZVEkXyA#X*"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=":1JM|}E3Ft4*6XciJ+wq"><field name="VAR" id="2d-+=FnKd~p-0/wN]-9p">dice</field></block></value><value name="B"><shadow type="math_number" id="FrB~jH07/DU^7qPfc)[V"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="sCm5^g#|0trnb.9pcyBq"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="M(p#FsQU2GBFkOwB;@sN"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . # . . . 
+        . # # # .
+        `</field></block></statement></block></next></block></statement></block></xml>
